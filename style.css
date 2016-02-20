@@ -1,0 +1,60 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url(http://www.elephant-world.com/wp-content/uploads/elephant-facts6.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.inner-body, .inner-footer {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header {
+    padding-top: 20px;
+}
+
+.logo {
+    float:left;
+    width:200px;
+}
+
+.logo h5{
+    margin:0;
+}
+.details {
+    margin-top:270px;
+    width:400px;
+}
+
+.col {
+    width:30%;
+    float:left;
+    padding-right:15px;
+    color:white;
+}
+.col a {
+    color:white;
+    text-transform:uppercase;
+    font-weight:bold;
+    text-decoration:none;
+}
+.col a:hover {
+    font-size:25px;
+}
+
+footer{
+    background:#304854;
+    position: absolute;
+    bottom: 0;
+    height: 250;
+    margin: 0 auto;
+    padding-bottom:30px;
+}
